@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch:sass": "node-sass scss/main.scss dist/style.css -w"
+    "watch:sass": "node-sass scss/main.scss dist/style.css -w",
+    "compile:sass": "node-sass scss/main.scss dist/style.css"
   },
   "keywords": [],
   "author": "",
