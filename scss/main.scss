@@ -1,0 +1,78 @@
+@import "variables";
+@import "reset";
+@import "utilities";
+@import "layout";
+@import "typography";
+
+.header {
+  background-color: $color-primary-light;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10rem 0;
+
+  &__content {
+    width: 45%;
+    min-width: 400px;
+  }
+
+  &__slogan {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-bottom: 1em;
+    display: inline-block;
+  }
+
+  &__title {
+    font-size: clamp(2.5rem, 4vw, 4rem);
+    font-family: "Playfair Display", serif;
+  }
+}
+
+.section-one {
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__text {
+    flex-basis: 45%;
+  }
+}
+
+.section-two {
+  background-color: $color-secondary-dark;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__text {
+    flex-basis: 45%;
+  }
+
+  &__img {
+    flex-basis: 45%;
+  }
+}
+
+.section-three {
+  background-color: $color-primary-dark;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__text {
+    flex-basis: 45%;
+  }
+
+  &__img {
+    flex-basis: 45%;
+  }
+}
