@@ -1,0 +1,28 @@
+.header {
+  background-color: $color-primary-light;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 660px;
+
+  &__content {
+    width: 50%;
+    min-width: 350px;
+    border: 1px solid pink;
+  }
+
+  &__slogan {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-bottom: 1em;
+    display: inline-block;
+  }
+
+  &__title {
+    font-size: clamp(2rem, 4vw, 4rem);
+    font-family: "Playfair Display", serif;
+  }
+}
